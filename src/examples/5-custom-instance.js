@@ -6,7 +6,7 @@ const CustomInstance = () => {
   const fetchData = async () => {
     console.log('custom axios instance');
   };
-
+  
   useEffect(() => {
     fetchData();
   }, []);
